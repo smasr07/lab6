@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    /*cout << "Enter temperature between in Fahrenheit between -58 and 41: " ;
+    double temperature;
+    cin >> temperature;
+    cout << endl;
+    cout << "Enter the wind speed greater than 2 in miles per hour: ";
+    double windspeed;
+    cin >> windspeed;
+    cout << endl;
+    cout << "The wind chill index is " << 35.74 + 0.6215 * temperature - 35.75 * pow( windspeed, 0.16) + 0.4275 * temperature * pow( windspeed, 0.16) << endl;*/
+    /*int a, b, c;
+    cin >> a >> b >> c;
+    if ( c % a == 0 && c % b == 0) cout << a << " and " << b << " are factors of " << c;
+    else if (c % a == 0 && c % b != 0)  cout << " only " << a << " a factor of " << c;
+    else if ( c % a != 0 && c % b == 0) cout << " only " << b << " a factor of " << c;
+    else cout << a << " and " << b << " are not factors of " << c << endl ;*/
+    /*int a = 0;
+    int b = 1;
+    int next;
+    cin >> next;
+    cout << a;
+    cout << "," << b;
+    for ( int i = 2; i <= next; i++) {
+        next = a + b;
+        cout << "," << next;
+        a = b;
+        b = next;
+
+    }*/
