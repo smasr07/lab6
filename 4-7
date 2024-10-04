@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+int main() {
+   /*int a, smallest, c;
+   cin >> a;
+   cin >> smallest;
+   c = smallest;
+   for ( int i = 2; i < a; i++) {
+       cin >> c;
+       if ( c < smallest) {
+          smallest = c ;
+       }
+
+   }
+    cout << smallest << endl;*/
+                  //problem6
+    /*int productNumber, quantity;
+    double totalSales;
+    cout << "Product prices : "<< endl;
+    cout << "Product 1: 2.98 $ " << endl;
+    cout << "Product 2: 4.50 $ " << endl;
+    cout << "Product 3: 9.98 $ " << endl;
+    cout << "Product 4: 4.49 $ " << endl;
+    cout << "Product 5: 6.87 $ " << endl;
+
+        cout << "Enter product number: ";
+        cin >> productNumber;
+        if ( productNumber == 0){
+            cout << "Choose from 1 to 5 "<< endl;
+        }
+    cout << "Enter quantity: " ;
+    cin >> quantity;
+    switch (productNumber) {
+        case 1: totalSales = quantity * 2.98;
+                break;
+        case 2: totalSales = quantity * 4.50;
+                break;
+        case 3: totalSales = quantity * 9.98;
+            break;
+        case 4: totalSales = quantity * 4.49;
+            break;
+        case 5: totalSales = quantity * 6.87;
+            break;
+
+    }
+    cout << totalSales << endl;*/
+                      //problem7
+    int a, b, c, h;
+    cout << "Enter year: " ;
+    cin >> a;
+    cout << "Enter month: " ;
+    cin >> b;
+    cout << "Enter the day of the month: ";
+    cin >> c;
+    while ( b < 3) {
+        b = b + 12 ;
+        a = a - 1 ;
+    }
+    h = (c + (26 * (b + 1 ))/10 + a % 100 + (a % 100) / 4 + ( a / 100 ) / 4 + 5 * a / 100) % 7 ;
+    switch (h) {
+        case 0: cout << "Saturday ";
+            break;
+        case 1: cout << "Sunday ";
+            break;
+        case 2: cout << "Monday ";
+            break;
+        case 3: cout << "Tuesday ";
+            break;
+        case 4: cout << "Wednesday ";
+            break;
+        case 5: cout << "Thursday ";
+            break;
+        case 6: cout << "Friday ";
+            break;
+    }
+            cout << endl;
+}
