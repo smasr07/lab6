@@ -1,0 +1,70 @@
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
+int main() {
+    //problem1
+    /* int i;
+    for (i = 1; i <= 10; i++) {
+        cout << i << " ";
+    }
+cout << endl;
+*/
+    /* int i;
+     int sum;
+     for (i = 1; i < 11; i++) {
+         cout << i << " ";
+         sum += i;
+     }
+
+  cout << endl;
+     cout << sum << endl;*/
+    /*int i;
+    for (i = 1; i < 101; i++) {
+        if ( i % 5 == 0) continue;
+        cout << i << " ";
+    }*/
+    /*int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        if (i % 10 == 0) {
+            cout << i << " ";
+        }
+    }*/
+
+    /* int count = 0;
+     char ch;
+     for (int i = 0; i <= 25; i++) {
+         ch = 'A' + i;
+         cout << ch << " ";
+         count++;
+         if ( count % 5 == 0) {
+             cout << endl;
+         }
+
+     }*/
+    /*int numberClasses;
+    double Totalcredits = 0.0, Totalscore = 0.0;
+    cin >> numberClasses;
+    for (int i = 1; i <= numberClasses; ++i) {
+        double credits, score;
+        cout << "Enter number of credits for subject " << i << ": ";
+        cin >> credits;
+        cout << "Enter number of scores for subject " << i << ": ";
+        cin >> score;
+        Totalcredits += credits;
+        Totalscore += score * credits;
+    }
+    cout << " Your Total GPA is " << Totalscore / Totalcredits;
+    return 0;*/
+   /* int i, p;
+    bool prime = true;
+    cin >> p;
+    for (i = 2; i < p; i++) {
+        if (p % i == 0 )
+            prime = false;
+
+    }
+    if (prime == false) cout << "Number is not prime ";
+    else cout << "Number is  prime ";
+*/
